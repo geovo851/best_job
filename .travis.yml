@@ -12,7 +12,7 @@ before_script:
 deploy:
   provider: heroku
   api_key:
-    secure: 
+    secure: DQnSwkTWsIDIvara4yoigJyGucKiEwl4EM6SUm296aX7mrQI53O2Tm/9AfFjE4IjFXMxt7uDqhMm6ynEHGjW6usY11K7sLSgzwn+4pAx3iqXyQzNLJC4qrXxeSJwfmigiHtWusEHaraZhldo/dStnYbK8oUot31q5wanrdU3KhDscnxQsi8GCB+UMSrZ2xppJu95gS9Fo3gVOaMfugFksrVYZdIyWl7g5QS4QM3O7Xydg9rnIMpi+tukwrhHLml6Bgf/OGt9zGVd7L3muVMBJ3i+WsrZQnwW2ECvIW0qsi93374hnLlBR59hhHGmW9mU/knA0AqCrgh4Zw7aL5Gmx0BJEl2FVnB/hX1/lvExhY4n8dGsmhV/lNcgTovFF63qcrOPEdXDTlaz+OGkN4Ct5KVXO7RB5YpfatY9iSOwTYXs5Imw5la68qwAW45LL+0xVGtdx5XzpNQQ1H4XwDzuNXHQ/+bueeMAZ2bNCmvfF+FJLU51VQqA+iwtES8+KkivpVk413gJEW1GxyfJdRCPWsZQaRB9l2zP7doDjtDWuxhcFG9AWFRrM+rJQx0CMTFadlkWiPmQHnGP1rEwMxMhSYSot4aEImHRHAuBXJ3K0x2mGgUNlqW1IAzxOvslpKpP+91KYfyriJvDg7KM0/NzeRbTes4L/PdCVdLp1uMmrgo=
   app: best-job
   run:
   - rake db:migrate
